@@ -33,7 +33,6 @@ public class ParallelRun extends AbstractTestNGCucumberTests {
 //    	ExceltoFeatures.GenerateFeatureFiles(FILE_NAME);
         testNGCucumberRunner = new TestNGCucumberRunner(this.getClass());
     }
-    
 
     @Test(groups = "cucumber", description = "Runs Cucumber Feature", dataProvider = "features")
     public void feature(PickleWrapper pickle, FeatureWrapper cucumberFeature) {
@@ -50,8 +49,5 @@ public class ParallelRun extends AbstractTestNGCucumberTests {
     public void tearDownClass() {
         testNGCucumberRunner.finish();
 //        EmailReports.Email_Report();
-        
     }
-	
-	
 }

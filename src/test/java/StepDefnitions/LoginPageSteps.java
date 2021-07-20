@@ -21,6 +21,4 @@ public class LoginPageSteps extends TestBase {
 		loginP = new login();
 		loginP.logout();
 	}
-
-
 }

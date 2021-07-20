@@ -19,8 +19,6 @@ public class ApplicationHooks extends TestBase {
 
 	}
 
-
-	
 	@After
 	public void tearDown(Scenario scenario) throws IOException {
 		try {
@@ -48,21 +46,4 @@ public class ApplicationHooks extends TestBase {
 			driver.quit();
 		}
 	}
-
-//	@After(order = 0)
-//	public void quitBrowser() {
-//		driver.quit();
-//	}
-
-//	@After(order = 1)
-//	public void tearDown(Scenario scenario) {
-//		if (scenario.isFailed()) {
-//			// take screenshot:
-//			String screenshotName = scenario.getName().replaceAll(" ", "_");
-//			byte[] sourcePath = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-//			scenario.attach(sourcePath, "image/png", screenshotName);
-//
-//		}
-//	}
-
 }
