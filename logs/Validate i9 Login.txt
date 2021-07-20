@@ -1,0 +1,1 @@
+Validate i9 Login ----> Mon Jul 19 22:05:36 IST 2021 SEVERE https://i9api-staging.hiretech.com/api/User/login - Failed to load resource: the server responded with a status of 400 (Bad Request)

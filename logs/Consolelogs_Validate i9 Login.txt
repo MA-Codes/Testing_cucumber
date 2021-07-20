@@ -1,0 +1,14 @@
+Start of Program
+Before navigating to: 'https://i9web-staging.hiretech.com/employer/dashboard'
+Navigated to:'https://i9web-staging.hiretech.com/employer/dashboard'
+Trying to find Element By : By.xpath: //input[@id='employrcode']
+Found Element By : By.xpath: //input[@id='employrcode']
+Trying to find Element By : By.xpath: //input[@id='UserName']
+Found Element By : By.xpath: //input[@id='UserName']
+Trying to find Element By : By.xpath: //input[@id='Password']
+Found Element By : By.xpath: //input[@id='Password']
+Trying to find Element By : By.xpath: //button[contains(text(),'Log In')]
+Found Element By : By.xpath: //button[contains(text(),'Log In')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (b453e21c2512cf8b36622d74b5afbcc3)] -> xpath: //button[contains(text(),'Log In')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (b453e21c2512cf8b36622d74b5afbcc3)] -> xpath: //button[contains(text(),'Log In')]]
+Trying to find Element By : By.xpath: //li[@class='header--logout']
